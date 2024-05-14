@@ -1,0 +1,9 @@
+[workspace]
+[package]
+version = "0.1.0"
+name = "sp1-sample-factor-program"
+edition = "2021"
+
+[dependencies]
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git", rev = "v1.0.0-testnet"  }
+# bitcoin = { version = "0.30.1", features = ["serde", "rand"] }
